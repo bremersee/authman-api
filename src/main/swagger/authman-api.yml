@@ -1,0 +1,19 @@
+swagger: "2.0"
+info:
+  title: "Authman (OAuth2 Server) API"
+  version: "1.0.0"
+  description: "Authman (OAuth2 Server) API."
+  contact:
+    name: "Christian Bremer"
+    email: "bremersee@googlemail.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "authman.bremersee.org"
+basePath: "/"
+tags:
+  - name: "authman"
+    description: "Authman user and administration interface."
+schemes:
+  - "http"
+  - "https"
